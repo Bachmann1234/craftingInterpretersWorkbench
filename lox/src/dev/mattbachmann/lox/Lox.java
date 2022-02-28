@@ -6,24 +6,7 @@ import java.io.InputStreamReader;
 import java.nio.charset.Charset;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.ArrayList;
 import java.util.List;
-
-class Token {
-
-}
-
-class Scanner {
-    private final String source;
-
-    public Scanner(String source) {
-        this.source = source;
-    }
-
-    public List<Token> scanTokens() {
-        return new ArrayList<>();
-    }
-}
 
 public class Lox {
     static boolean hadError;
